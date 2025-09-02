@@ -1,10 +1,20 @@
 {
     "name": "cocomelon/laravel-active-state",
-    "description": "Laravel blade directive to manage active class",
+    "description": "A Laravel package to manage active states easily",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinayak Ukkoji",
+            "email": "vinayakukkoji599@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
     "autoload": {
-       "psr-4": {
+        "psr-4": {
             "Cocomelon\\ActiveState\\": "src/"
         }
     },
@@ -15,5 +25,6 @@
             ]
         }
     },
-    "require": {}
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
