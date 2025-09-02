@@ -1,0 +1,19 @@
+{
+    "name": "cocomelon/laravel-active-state",
+    "description": "Laravel blade directive to manage active class",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cocomelon\\LaravelActiveState\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cocomelon\\ActiveState\\ActiveStateServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
