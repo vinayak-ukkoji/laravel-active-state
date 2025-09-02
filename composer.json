@@ -1,5 +1,5 @@
 {
-    "name": "Cocomelon/laravel-active-state",
+    "name": "cocomelon/laravel-active-state",
     "description": "Laravel blade directive to manage active class",
     "type": "library",
     "license": "MIT",
