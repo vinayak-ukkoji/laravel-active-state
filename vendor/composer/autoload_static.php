@@ -9,12 +9,12 @@ class ComposerStaticInitff267b2fe9f21c9d85438f665ff07183
     public static $prefixLengthsPsr4 = array (
         'C' => 
         array (
-            'Cocomelon\\LaravelActiveState\\' => 29,
+            'Cocomelon\\ActiveState\\' => 22,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Cocomelon\\LaravelActiveState\\' => 
+        'Cocomelon\\ActiveState\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

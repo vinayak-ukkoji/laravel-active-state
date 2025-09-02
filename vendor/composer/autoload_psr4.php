@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Cocomelon\\LaravelActiveState\\' => array($baseDir . '/src'),
+    'Cocomelon\\ActiveState\\' => array($baseDir . '/src'),
 );
